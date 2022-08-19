@@ -1,0 +1,58 @@
+.display_all_covid_info{
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-gap: 10px 10px;
+}
+
+.main_cointainer{
+  background-color: #c7f804;
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 10px;
+}
+
+.main_header{
+  color: rgb(0, 0, 0);
+}
+
+.input_box{
+  border: none;
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.custom_button_1{
+  border: none;
+  background-color: rgb(64, 3, 1);
+  color: rgb(253, 253, 253);
+  padding: 10px 50px;
+  font-weight: bold;
+}
+
+.custom_button_1:hover{
+  background-color: rgb(12, 12, 12);
+  color: black;
+}
+
+.custom_button_2{
+  border: none;
+  background-color: rgb(120, 115, 113);
+  color: white;
+  padding: 10px 50px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.custom_button_2:hover{
+  background-color: rgb(86, 86, 23);
+  color: rgb(255, 255, 255);
+}
+
+.country_info h2{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
